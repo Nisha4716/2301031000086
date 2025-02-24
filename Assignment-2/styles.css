@@ -1,0 +1,1169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+.container {
+    width: 412px;
+    height: 917px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+.top-rectangle {
+    width: 412px;
+    height: 235px;
+    background-color: #0A7693;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo {
+    position: absolute;
+    top: 131px;
+    left: 52px;
+    width: 308px;
+    height: 236px;
+}
+.website-name {
+    position: absolute;
+    top: 331px;
+    left: 104px;
+}
+.electro {
+    font-size: 42px;
+    font-weight: 400;
+    color: #000000;
+}
+.tech {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0A7693;
+}
+.content {
+    position: absolute;
+    top: 382px;
+    left: 73px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    width: 308px;
+    height: 48px;
+}
+.bottom-rectangle {
+    position: absolute;
+    top: 774px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: rgba(10, 118, 147, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-text {
+    font-size: 100px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer; 
+}
+.explore-text:hover {
+    color: #0A7693; 
+}
+.page-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.heading {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* New CSS for about */
+.container {
+    position: relative;
+    width: 414px;
+    height: 917px;
+    background: url('Downloads/image 6.png') no-repeat center center;
+    background-size: cover;
+}
+.back-icon img {
+    position: absolute;
+    top: 57px;
+    left: 10px;
+    width: 46px;
+    height: 46px;
+}
+.back-icon img {
+  width: 100%;
+  height: 100%;
+}
+.content-line  {
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    width: 412px;
+    height: 117px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.sign-up-container {
+    position: absolute;
+    top: 772px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: rgba(10, 118, 147, 0.45);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.login-container {
+    position: absolute;
+    top: 858px;
+    left: 180px;
+    width: 100px;
+    height: 39px;
+}
+.login-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* New CSS for signup */
+/* General Styles */
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+/* Main Frame */
+.main-frame {
+    width: 412px;
+    height: 917px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.signup-title {
+    position: absolute;
+    top: 64px;
+    left: 125px;
+    width: 194px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #000000;
+}
+.back-icon {
+    position: absolute;
+    top: 30px;
+    left: 66px;
+    width: 46px;
+    height: 46px;
+    transform: rotate(180);
+}
+.back-icon img {
+    width: 100%;
+    height: 100%;
+}
+.form-rectangle {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 503px;
+    height: 858px;
+    background-color: #0A7693;
+    border-radius: 96px;
+    padding: 20px;
+}
+.input-field {
+    position: relative;
+    width: 400px;
+    height: 68px;
+    margin-bottom: 20px;
+    background-color: rgba(245, 245, 245, 0.84);
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.input-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 12px;
+    left: 76px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.small-rectangle {
+  position: absolute;
+  top: 774px;
+  left: 76px;
+  width: 260px;
+  height: 73px;
+  background-color: #000000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* New CSS for login */
+/* Main Frame */
+.main-frame {
+    width: 412px;
+    height: 917px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.login-title {
+    position: absolute;
+    top: 64px;
+    left: 125px;
+    width: 194px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #000000;
+}
+.back-icon {
+    position: absolute;
+    top: 30px;
+    left: 66px;
+    width: 46px;
+    height: 46px;
+    transform: rotate(180);
+}
+.back-icon img {
+    width: 100%;
+    height: 100%;
+}
+.form-rectangle {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 503px;
+    height: 858px;
+    background-color: #0A7693;
+    border-radius: 40px;
+    padding: 20px;
+}
+.input-field {
+    position: relative;
+    width: 400px;
+    height: 68px;
+    margin-bottom: 20px;
+    background-color: rgba(245, 245, 245, 0.84);
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.input-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 20px;
+    left: 76px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.yes-icon img {
+    position: absolute;
+    top: 46px;
+    left: 523px;
+    width: 40px;
+    height: 40px;
+}
+.remember me content {
+    position: absolute;
+    top: 102px;
+    left: 531px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 142px;
+    height: 24px;
+}
+.login-btn {
+    position: absolute;
+    top: 700px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-text {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.login-text:hover {
+    cursor: pointer;
+    color: #F5F5F5;
+}
+
+/* New CSS for electronics gadgets */
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.page-container {
+  width: 412px;
+  height: 917px;
+  margin: 0 auto;
+  position: relative;
+}
+.title-image {
+  width: 100%;
+  height: 205px;
+  object-fit: cover; 
+}
+.title-rectangle {
+  position: absolute;
+  top: 75px;
+  left: 28px;
+  width: 353px;
+  height: 55px;
+  background-color: rgba(217, 217, 217, 0.82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.electronics-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B06FF;
+  margin: 0;
+}
+.product-container {
+  display: inline-block;
+  width: 182px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-container img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.product-name {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  margin-top: 10px;
+}
+.air-purifier {
+  position: absolute;
+  top: 237px;
+  left: 9px;
+}
+.digital-clock {
+  position: absolute;
+  top: 243px;
+  left: 206px;
+}
+.smart-mirror {
+  position: absolute;
+  top: 526px;
+  left: 0;
+}
+.led-lamp {
+  position: absolute;
+  top: 526px;
+  left: 206px;
+}
+.search-container {
+  position: absolute;
+  bottom: 60px;
+  left: 51px;
+  width: 296px;
+  height: 61px;
+  background-color: rgba(10, 118, 147, 0.5);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.search-icon {
+  width: 40px;
+  height: 40px;
+}
+.search-text {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+/* New CSS for introduction */
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  .container {
+    width: 412px;
+    height: 912px;
+    position: relative;
+    background-color: #fff;
+  }
+  .back-icon {
+    position: absolute;
+    top: -10px;
+    left: 6px;
+  }
+  .back-icon img {
+    width: 46px;
+    height: 46px;
+  }
+  .page-title {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 312px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  .content-rectangle {
+    position: absolute;
+    top: 162px;
+    left: 20px;
+    width: 475px;
+    height: 530px;
+    background-color: #0A7693;
+    border-radius: 50px;
+    padding: 50px;
+  }
+  .content-text {
+    position: absolute;
+    top: 80px;
+    left: 27px;
+    width: 338px;
+    height: 198px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .small-rectangle {
+    position: absolute;
+    top: 774px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: rgba(10, 118, 147, 0.5); /* 50% opacity */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .next-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* New CSS for inside */
+  /* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  .container {
+    width: 412px;
+    height: 917px;
+    position: relative;
+    background-color: #fff;
+  }
+  .back-icon {
+    position: absolute;
+    top: -25px;
+    left: 6px;
+  }
+  .back-icon img {
+    width: 46px;
+    height: 46px;
+  }
+  .page-title {
+    position: absolute;
+    top: 74px;
+    left: 52px;
+    width: 324px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  .airpurifier-image {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 380px;
+    height: 670px;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  .airpurifier-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .small-rectangles {
+    position: absolute;
+    top: 100px;
+    left: 43px;
+  }
+  .rectangle {
+    position: absolute;
+    width: 296px;
+    height: 61px;
+    background-color: rgba(245, 245, 245, 0.84); /* 84% opacity */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+  }
+  .next-btn-container {
+    position: absolute;
+    top: 823px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: rgba(10, 118, 147, 0.5); /* 50% opacity */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .next-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  /* New CSS for diagram */
+
+  .android-compact-8,
+.android-compact-8 * {
+  box-sizing: border-box;
+}
+.android-compact-8 {
+  background: #ffffff;
+  height: 917px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #0a7693;
+  border-radius: 50px;
+  width: 372px;
+  height: 620px;
+  position: absolute;
+  left: 20px;
+  top: 140px;
+}
+.block-diagram {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  position: absolute;
+  left: -24px;
+  top: 81px;
+  width: 425px;
+}
+.rectangle-3 {
+  background: rgba(10, 118, 147, 0.5);
+  border-radius: 20px;
+  width: 260px;
+  height: 73px;
+  position: absolute;
+  left: 76px;
+  top: 774px;
+}
+.next {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 161px;
+  top: 789px;
+}
+.image-7 {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 66px;
+  top: 64px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  object-fit: cover;
+}
+._12-v-dc-power-supply {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 190px;
+}
+.arrow-1 {
+  width: 46px;
+  height: 0px;
+  position: absolute;
+  left: 102px;
+  top: 219px;
+  color: #000000;
+  transform: translate(-7.36px, 0px);
+  overflow: visible;
+}
+.voltage-regulator-lm-7805 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 265px;
+}
+.arrow-2 {
+  width: 48.01px;
+  height: 0px;
+  position: absolute;
+  left: 165px;
+  top: 309px;
+  color: #000000;
+  transform: translate(-0.02px, -8.23px);
+  overflow: visible;
+}
+.microcontroller-esp-8266 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 211px;
+  top: 271px;
+}
+.arrow-3 {
+  width: 38px;
+  height: 0px;
+  position: absolute;
+  left: 101px;
+  top: 358px;
+  color: #000000;
+  transform: translate(-6.53px, -0.03px);
+  overflow: visible;
+}
+.arrow-4 
+{
+  width: 38px;
+  height: 0px;
+  position: absolute;
+  left: 311px;
+  top: 358px;
+  color: #000000;
+  transform: translate(-7.36px, 0px);
+  overflow: visible;
+}
+.air-quality-sensor-mq-135 
+{
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 413px;
+}
+.arrow-7 {
+  width: 42px;
+  height: 0px;
+  position: absolute;
+  left: 103px;
+  top: 465px;
+  color: #000000;
+  transform: translate(-7.36px, 0px);
+  overflow: visible;
+}
+.brushless-fan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 45px;
+  top: 511px;
+}
+.mosef-controller {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 260px;
+  top: 507px;
+}
+.arrow-8 {
+  width: 38px;
+  height: 0px;
+  position: absolute;
+  left: 259.99px;
+  top: 535.74px;
+  color: #000000;
+  transform: translate(-38.99px, -7.98px);
+  overflow: visible;
+}
+.arrow-9 {
+  width: 42px;
+  height: 0px;
+  position: absolute;
+  left: 102px;
+  top: 544px;
+  color: #000000;
+  transform: translate(-6.77px, -0.02px);
+  overflow: visible;
+}
+.led-indicators-green-red {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 45px;
+  top: 592px;
+}
+.arrow-10 {
+  width: 40px;
+  height: 0px;
+  position: absolute;
+  left: 102px;
+  top: 656px;
+  color: #000000;
+  transform: translate(-6.75px, -0.02px);
+  overflow: visible;
+}
+.buttons-manual-control {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 45px;
+  top: 704px;
+}
+.arrow-5 {
+  width: 54px;
+  height: 0px;
+  position: absolute;
+  left: 325px;
+  top: 425px;
+  color: #000000;
+  transform: translate(-55px, -7.36px);
+  overflow: visible;
+}
+.arrow-6 {
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 314px;
+  top: 441px;
+  color: #000000;
+  transform: translate(-7.36px, 0px);
+  overflow: visible;
+}
+
+  /* New CSS for testing */
+  /* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  .container {
+    width: 412px;
+    height: 912px;
+    position: relative;
+    background-color: #fff;
+  }
+  .back-icon {
+    position: absolute;
+    top: -10px;
+    left: 6px;
+  }
+  .back-icon img {
+    width: 46px;
+    height: 46px;
+  }
+  .page-title {
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    width: 372px;
+    height: 41px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #000000;
+    text-align: center;
+  }
+  .content-rectangle {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    width: 372px;
+    height: 590px;
+    background-color: #0A7693;
+    border-radius: 50px;
+    padding: 50px;
+  }
+  .content-text {
+    position: absolute;
+    top: 186px;
+    left: 20px;
+    width: 347px;
+    height: 528px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 'regular';
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .small-rectangle {
+    position: absolute;
+    top: 774px;
+    left: 76px;
+    width: 260px;
+    height: 73px;
+    background-color: rgba(10, 118, 147, 0.5); /* 50% opacity */
+    border-radius: 20px;
+    display: flex;
+
+  }
+  .next-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  /* New CSS for finalproduct */
+  /* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 412px;
+  height: 912px;
+  position: relative;
+  background-color: #fff;
+}
+.back-icon {
+  position: absolute;
+  top: -10px;
+  left: 6px;
+}
+.back-icon img {
+  width: 46px;
+  height: 46px;
+}
+.page-title {
+  position: absolute;
+  top: 65px;
+  left: 25px;
+  width: 372px;
+  height: 41px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: #000000;
+  text-align: center;
+}
+.image-1 {
+  position: absolute;
+  top: 136px;
+  left: 14px;
+  width: 197px;
+  height: 148px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-1 img {
+  width: 100%;
+  height: 100%;
+}
+.image-2 {
+  position: absolute;
+  top: 136px;
+  left: 131px;
+  width: 166px;
+  height: 149px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-2 img {
+  width: 100%;
+  height: 100%;
+}
+.image-3 {
+  position: absolute;
+  top: 306px;
+  left: 94px;
+  width: 224px;
+  height: 168px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-3 img {
+  width: 100%;
+  height: 100%;
+}
+.image-4 {
+  position: absolute;
+  top: 492px;
+  left: 111px;
+  width: 200px;
+  height: 245px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-4 img {
+  width: 100%;
+  height: 100%;
+}
+.next-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0A7693 (50%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.next-btn:hover {
+  background-color: #0A7693(50%);
+}
+
+  /* New CSS for conclusion */
+  /* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  font-size: 16px;
+  color: #000;
+  padding: 20px;
+}
+.back-icon {
+  position: absolute;
+  top: 19px;
+  left: 10px;
+  width: 46px;
+  height: 46px;
+}
+.title {
+  position: absolute;
+  top: 97px;
+  left: 70px;
+  width: 271px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+}
+.content-box {
+  position: absolute;
+  top: 162px;
+  left: 20px;
+  width: 375px;
+  height: 414px;
+  background-color: #0A7693;
+  border-radius: 50px;
+  padding: 20px;
+}
+.content-text {
+  position: absolute;
+  top: 162px;
+  left: 20px;
+  width: 338px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 28px;
+  color: #000;
+}
+.question-text {
+  position: absolute;
+  top: 593px;
+  left: 31px;
+  width: 356px;
+  height: 66px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 28px;
+  color: #000;
+}
+.login-box {
+  position: absolute;
+  top: 676px;
+  left: 20px;
+  width: 366px;
+  height: 73px;
+  background-color: rgba(42, 182, 207, 0.26);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #000;
+}
+.thank-you-box {
+  position: absolute;
+  top: 771px;
+  left: 20px;
+  width: 375px;
+  height: 73px;
+  background-color: rgba(10, 118, 147, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #000;
+}
+
